@@ -81,6 +81,7 @@ export interface assumeRoleParams {
 }
 
 export async function assumeRole(params: assumeRoleParams) {
+  core.info('I am forked and running from n0pe-sled/configure-aws-credentials');
   const {
     credentialsClient,
     sourceAccountId,

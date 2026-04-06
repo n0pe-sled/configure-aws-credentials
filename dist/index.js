@@ -69071,6 +69071,7 @@ async function assumeRoleWithCredentials(params, client) {
   }
 }
 async function assumeRole(params) {
+  core2.info("I am forked and running from n0pe-sled/configure-aws-credentials");
   const {
     credentialsClient,
     sourceAccountId,
